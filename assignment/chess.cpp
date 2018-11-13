@@ -42,7 +42,7 @@ bool is_piece(struct ChessPiece chess_piece, enum Color color, enum PieceType pi
 
 struct ChessSquare* get_square(ChessBoard chess_board, File file, Rank rank)
 {
-
+  return ChessSquare;
 }
 
 bool is_square_occupied(ChessBoard chess_board, File file, Rank rank)
@@ -57,7 +57,7 @@ bool add_piece(ChessBoard chess_board, File file, Rank rank, struct ChessPiece c
 
 struct ChessPiece get_piece(ChessBoard chess_board, File file, Rank rank)
 {
-
+  return ChessPiece;
 }
 
 void setup_chess_board(ChessBoard chess_board)
